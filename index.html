@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom assignment</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- font style -->
+    <style>
+        .font-lexend {
+            font-family: "lexend", system-ui;
+
+        }
+    </style>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind cdn  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        primary: '#F9F7F3',
+                        secondary: '#B4F461',
+                        ternary: '#111111'
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-lexend">
+
+    <header>
+        <nav class="py-3 bg-slate-100 flex justify-between   py-10   ">
+            <div>
+                <button id="blog-section" class="p-2  bg-secondary rounded-lg  mx-8 ">Blog</button>
+            </div>
+            <div class="flex gap-2 items-center">
+                <img src="assets/logo.png" alt="">
+                <h2>Donate Bangladesh</h2>
+            </div>
+            <div class="flex items-center gap-2 mx-8">
+                <img src="assets/coin.png" alt="">
+                <p id="main-balance">5500 BDT</p>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto px-28 py-6 shadow-lg">
+        <div class="text-center py-6">
+            <button id="donate-page" class="bg-secondary rounded-lg p-2 font-bold">Donation</button>
+            <button id="history-page" class="bg-secondary rounded-lg p-2 bg-white border-solid border-2 ">History</button>
+        </div>
+
+      <section id="main-page">
+          <!-- section 01 -->
+
+          <section class="flex justify-center  items-center gap-10 ">
+            <div class="w-96">
+                <img src="assets/noakhali.png" alt="" srcset="">
+            </div>
+
+            <div>
+                <button class="flex gap-2 rounded-lg bg-gray-300 p-2">
+                    <img src="assets/coin.png" alt="">
+                    <p id="all-donate">0 BDT</p>
+                </button>
+                <div class=" flex flex-col ">
+                    <h2 class="font-bold text-md">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <p class="text-sm text-gray-500">The recent floods in Noakhali have caused significant damage to
+                        <br> homes infrastructure. Your donation will help provide
+                        essential <br>supplies and to those affected by this disaster. Every contribution, <br>big or
+                        small, makes difference. Please
+                        join us in supporting the relief <br> efforts and making a positive impact on the lives of those
+                        in need.</p>
+
+                    <input id="donate-amount" type="text"
+                        class="bg-black-100 text-black font-semibold px-5 py-2 rounded-md border-solid border-2 border-gray-300 mt-3"
+                        placeholder="Write Donation Amount">
+                    <button id="donate-money"
+                        class="bg-lime-400 text-black font-semibold px-6 py-2 rounded-md shadow   mt-3">
+                        Donation Now
+                    </button>
+                </div>
+        </section>
+
+
+        <!-- section 02 -->
+        <section class="flex justify-center  items-center gap-10 mt-10 mb-10  ">
+            <div class="w-96">
+                <img src="assets/noakhali.png" alt="" srcset="">
+            </div>
+
+            <div>
+                <button class="flex gap-2 rounded-lg bg-gray-300 p-2">
+                    <img src="assets/coin.png" alt="">
+                    <p id="all-donate2">0 BDT</p>
+                </button>
+                <div class=" flex flex-col ">
+                    <h2 class="font-bold text-md">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <p class="text-sm text-gray-500">The recent floods in Noakhali have caused significant damage to
+                        <br> homes infrastructure. Your donation will help provide
+                        essential <br>supplies and to those affected by this disaster. Every contribution, <br>big or
+                        small, makes difference. Please
+                        join us in supporting the relief <br> efforts and making a positive impact on the lives of those
+                        in need.</p>
+
+                    <input id="donate-amount2" type="text"
+                        class="bg-black-100 text-black font-semibold px-5 py-2 rounded-md border-solid border-2 border-gray-300 mt-3"
+                        placeholder="Write Donation Amount">
+                    <button id="donate-money2"
+                        class="bg-lime-400 text-black font-semibold px-6 py-2 rounded-md shadow   mt-3">
+                        Donation Now
+                    </button>
+                </div>
+        </section>
+
+        <!-- section 03 -->
+        <section class="flex justify-center  items-center gap-10 mt-10 mb-10  ">
+            <div class="w-96">
+                <img src="assets/noakhali.png" alt="" srcset="">
+            </div>
+
+            <div>
+                <button class="flex gap-2 rounded-lg bg-gray-300 p-2">
+                    <img src="assets/coin.png" alt="">
+                    <p id="all-donate3">0 BDT</p>
+                </button>
+                <div class=" flex flex-col ">
+                    <h2 class="font-bold text-md">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <p class="text-sm text-gray-500">The recent floods in Noakhali have caused significant damage to
+                        <br> homes infrastructure. Your donation will help provide
+                        essential <br>supplies and to those affected by this disaster. Every contribution, <br>big or
+                        small, makes difference. Please
+                        join us in supporting the relief <br> efforts and making a positive impact on the lives of those
+                        in need.</p>
+
+                    <input id="donate-amount3" type="text"
+                        class="bg-black-100 text-black font-semibold px-5 py-2 rounded-md border-solid border-2 border-gray-300 mt-3"
+                        placeholder="Write Donation Amount">
+                    <button id="donate-money3"
+                        class="bg-lime-400 text-black font-semibold px-6 py-2 rounded-md shadow   mt-3">
+                        Donation Now
+                    </button>
+                </div>
+        </section>
+
+      </section>
+     
+
+      <!-- Blog section -->
+       <div id="blg-sec" class="hidden ">
+        <h1 class="font-bold text-2xl mb-4">Important FAQ</h1>
+        <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the document object model(DOM)?</div>
+            <div class="collapse-content">
+              <p>Write your answer here.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>Write your answer here.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+            <div class="collapse-content">
+              <p>Write your answer here.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2 ">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you mainpulate an elements attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>Write your answer here.</p>
+            </div>
+          </div>
+       </div>
+
+
+
+
+       <!-- history section -->
+    <section  id="history-section " class="hidden">
+    <h2>History</h2>
+     <div id="transaction-history">
+
+     </div>
+
+    </div>
+    </section>
+
+        
+
+    </main>
+
+
+       <!-- congratulation part -->
+       <div id="congrats-page">
+        
+        <section class=" pt-4 flex items-center justify-center hidden ">
+            <div class="bg-white shadow-lg rounded-2xl p-8 max-w-2xl mx-auto text-center">
+                <div class="mb-4">
+                    <span class="text-3xl font-bold">Congrats!</span>
+                </div>
+                <div class="mb-6">
+                    <img class="w-8 mx-auto" src="/assets/coin.png" alt="" srcset="">
+        
+                </div>
+                <div class="text-lg font-medium mb-2">
+                    You Have Donated for Humankind
+                </div>
+                <div class="text-black-500 font-bold text-2xl">
+                    Successfully
+                </div>
+                <div class="mt-6">
+                    <button id="closeBtn" class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">
+                        Close Confirmation
+                    </button>
+                </div>
+            </div>
+        </section>
+              </div>
+        
+
+
+    <script src="js/donateMoney.js"></script>
+    <script src="js/donateMoney.js"></script>
+    <script src="js/features.js"></script>
+    <script src="js/utilities.js"></script>
+</body>
+
+</html>
