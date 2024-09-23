@@ -1,5 +1,11 @@
+
+
 function showSectionById(id){
-    document.getElementById('main-page').classList.add(hidden);
-    document.getElementById('history-section').classList.add(hidden);
-    document.getElementById(id).classList.remove(hidden);
+    document.getElementById('add-donate-form').classList.add('hidden');
+    document.getElementById('add-blog-form').classList.add('hidden');
+    document.getElementById('add-history-form').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden');
+
+
 }
