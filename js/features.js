@@ -9,4 +9,8 @@ document.getElementById('show-add-history-form').addEventListener('click',functi
     
     showSectionById('add-history-form');
 });
+// document.getElementById('show-add-donate-form').addEventListener('click',function(){
+    
+//     showSectionById('congratulation-form');
+// });
  
