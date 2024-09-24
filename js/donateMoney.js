@@ -10,7 +10,7 @@ document.getElementById('donate-money').addEventListener('click',function(event)
     const donate = parseFloat(donateMoney);
     const mainBalance = document.getElementById('main-balance').innerText;
     const main = parseFloat(mainBalance);
-    if (donate > 0 && mainBalance > donateMoney) {
+    if (donate > 0 ) {
     const all = parseFloat(allDonate);
     const avilable= donate + all;
 
@@ -52,7 +52,7 @@ document.getElementById('donate-money2').addEventListener('click',function(event
     const mainBalance = document.getElementById('main-balance').innerText;
         const main = parseFloat(mainBalance);
     
-    if (donate > 0 && mainBalance > donateMoney) {
+    if (donate > 0) {
         const all = parseFloat(allDonate);
         const avilable= donate + all;
     
@@ -91,7 +91,7 @@ document.getElementById('donate-money3').addEventListener('click',function(event
     const donate = parseFloat(donateMoney);
     const mainBalance = document.getElementById('main-balance').innerText;
     const main = parseFloat(mainBalance);
-    if (donate > 0 && mainBalance > donateMoney) {
+    if (donate > 0) {
     const all = parseFloat(allDonate);
     const avilable= donate + all;
 

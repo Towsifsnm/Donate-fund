@@ -5,8 +5,6 @@ function showSectionById(id){
     
     document.getElementById('add-history-form').classList.add('hidden');
     
-    // document.getElementById('congratulation-form').classList.add('hidden');
-
     document.getElementById(id).classList.remove('hidden');
 
 
