@@ -49,7 +49,7 @@
     <header>
         <nav class="py-3 bg-slate-100 flex justify-between   py-10   ">
             <div>
-                <button id="show-add-blog-form" class="p-2  bg-secondary rounded-lg  mx-8 ">Blog</button>
+                <a href="/blog.html" id="show-add-blog-form" class="p-2  bg-secondary rounded-lg  mx-8 ">Blog</a>
             </div>
             <div class="flex gap-2 items-center">
                 <img src="assets/logo.png" alt="">
@@ -68,7 +68,7 @@
             <button id="show-add-history-form" class="bg-secondary rounded-lg p-2 bg-white border-solid border-2 ">History</button>
         </div>
 
-      <section id="add-money-form" class="  ">
+      <section id="add-donate-form" class="  ">
           <!-- section 01 -->
 
           <section class="flex justify-center  items-center gap-10 mt-10 mb-10  ">
@@ -159,45 +159,11 @@
       </section>
      
 
-      <!-- Blog section -->
-       <div id="add-blog-form" class="  ">
-        <h1 class="font-bold text-2xl mb-4">Important FAQ</h1>
-        <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
-            <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="collapse-title text-xl font-medium">What is the document object model(DOM)?</div>
-            <div class="collapse-content">
-              <p>Write your answer here.</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
-            <div class="collapse-content">
-              <p>Write your answer here.</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
-            <div class="collapse-content">
-              <p>Write your answer here.</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200 border-2 pt-2 pb-2 ">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">How do you mainpulate an elements attributes and styles using the DOM?</div>
-            <div class="collapse-content">
-              <p>Write your answer here.</p>
-            </div>
-          </div>
-       </div>
-
-
 
 
        <!-- history section -->
-    <section  id="add-history-form " class=" ">
-    <h2>History</h2>
+    <section  id="add-history-form" class="max-w-screen-xl mx-auto px-28 py-6 shadow-lg ">
+    
      <div id="transaction-history">
 
      </div>
@@ -211,7 +177,7 @@
 
 
        <!-- congratulation part -->
-       <div id="congrats-page">
+       <div id="congrats-page" class="hidden">
         
         <section class=" pt-4 flex items-center justify-center ">
             <div class="bg-white shadow-lg rounded-2xl p-8 max-w-2xl mx-auto text-center">

@@ -9,7 +9,4 @@ document.getElementById('show-add-history-form').addEventListener('click',functi
     
     showSectionById('add-history-form');
 });
-document.getElementById('show-add-blog-form').addEventListener('click',function(){
-   
-    showSectionById('add-blog-form');
-})
+ 
